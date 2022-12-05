@@ -48,6 +48,12 @@ gem 'better_errors', '~> 2.9', '>= 2.9.1'
 # forms made easy!
 gem 'simple_form', '~> 5.1'
 
+# Guard is a command line tool to easily handle events on file system modifications.
+gem 'guard', '~> 2.18'
+
+# Guard::LiveReload automatically reloads your browser when 'view' files are modified.
+# gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
