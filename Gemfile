@@ -28,7 +28,7 @@ gem "stimulus-rails"
 gem "jbuilder"
 
 # Use Redis adapter to run Action Cable in production
-# gem "redis", "~> 4.0"
+gem "redis", "~> 4.0"
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
@@ -42,17 +42,11 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
-# Make errors better looking
-gem 'better_errors', '~> 2.9', '>= 2.9.1'
-
 # forms made easy!
 gem 'simple_form', '~> 5.1'
 
-# Guard is a command line tool to easily handle events on file system modifications.
-gem 'guard', '~> 2.18'
-
-# Guard::LiveReload automatically reloads your browser when 'view' files are modified.
-# gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
+# A modern CSS framework based on Flexbox
+gem 'bulma-rails', '~> 0.9.4'
 
 # Use Sass to process CSS
 # gem "sassc-rails"
@@ -74,6 +68,15 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+
+  # Make errors better looking
+  gem 'better_errors', '~> 2.9', '>= 2.9.1'
+
+  # Guard is a command line tool to easily handle events on file system modifications.
+  gem 'guard', '~> 2.18'
+
+  # Guard::LiveReload automatically reloads your browser when 'view' files are modified.
+  # gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
 end
 
 group :test do
